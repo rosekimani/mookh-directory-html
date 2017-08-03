@@ -33,8 +33,13 @@ h1{
 	background-color: #fff;
 }
 
+.space{
+	margin-bottom: 100px;
+}
+
 .graph-1{
 	background-color: #f6f3ee;
+	height: 300px;
 }
 
 .footer{
@@ -48,10 +53,65 @@ h4{
 	color: #555a5e;
 }
 
+.img-responsive {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.small-image {
+	position: relative; margin-top: -100px; border: 5px solid grey; width: 150px; margin-right: 10px; border-radius: 10px;
+}
+
+.body-text {
+	margin-top: 58px;
+	padding: 5px;
+}
+
+.bg-grey {
+	background-color: #f6f3ee;
+	height: auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+/*.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}*/
 .small-1{
-	/*position: absolute;*/
 	width: 200px
 	height: 200px;
 	background: #ccc;
-	/*margin-bottom: 50px;*/
 }
+
+.view1{
+	margin-top: 50px;
+}
+.view2{
+	margin-top: 20px;
+}
+
+.view3{
+	margin-top: 100px;
+}
+.view4{
+	margin-top: 70px;
+}
+
+.view5{
+	margin-top: 60px;
+}
+
+.view6{
+	margin-top: 190px;
+}
+
+
+
+
