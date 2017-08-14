@@ -7,6 +7,12 @@ h1{
 	color: #fbea2a;
 }
 
+.heading-1 b{
+	font-size: 16px;
+	color: #fff;
+	font-weight: lighter;
+}
+
 .cont1 h3{
   text-align: center;		
 }
@@ -125,14 +131,17 @@ h4{
 	margin-top: 40px;
 }
 .view4{
+	margin-top: 40px;
+}
+.view5{
 	margin-top: 70px;
 }
 
-.view5{
+.view6{
 	margin-top: 60px;
 }
 
-.view6{
+.view7{
 	margin-top: 130px;
 }
 
