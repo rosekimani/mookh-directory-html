@@ -10,7 +10,7 @@ h1{
 .heading-1 b{
 	font-size: 16px;
 	color: #fff;
-	font-weight: lighter;
+	font-weight: bold;
 }
 
 .cont1 h3{
@@ -21,10 +21,40 @@ h3{
 	color: #fff;
 }
 
-.search1{
-	background-color: #31383e;
+.form-group{
 	width: 300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
+
+.form-heading input{
+	background-color: #31383e;
+	border-left: none;
+	color: white;
+
+}
+
+.form-heading span{
+ color: white;
+}
+
+.form-heading input::-webkit-input-placeholder,  { /* Chrome/Opera/Safari */
+  color: white;
+}
+.form-heading input::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+.form-heading input:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+.form-heading input:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+
+.input-group-addon{
+	background-color:  #31383e;
+}
+
 .cont-1 h2{
 	color: #fff;
 }
@@ -34,10 +64,20 @@ h3{
 }
 .button-1{
 	background-color: #fbea2a;
+	color: #000;
+	border: none;
+	width: 170px;
+	margin-top: 40px;
+	margin-bottom: 50px;
 }
 
 .button-2{
 	background-color: #31383e;
+	border-color: #fff;
+	width: 110px;
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-bottom: 50px;
 	
 }
 
@@ -49,10 +89,18 @@ h3{
 	background-color: #31383e;
 	color: #fff;
 	border: #fff;
+	margin-top: 40px;
+	margin-bottom: 50px;
 }
 
 .part-2{
 	background-color: #fff;
+}
+
+hr.first-line{
+	border: solid;
+	margin-top: -20px;
+	max-width: 1366px;
 }
 
 .bar1{
@@ -110,10 +158,7 @@ h4{
   display:         flex;
   flex-wrap: wrap;
 }
-/*.row > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
-}*/
+
 .small-1{
 	width: 200px
 	height: 200px;
