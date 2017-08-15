@@ -1,111 +1,4 @@
-.part-1{
-	background-color: #31383e;
-}
 
-h1{
-	text-align: center;
-	color: #fbea2a;
-}
-
-.heading-1 b{
-	font-size: 16px;
-	color: #fff;
-	font-weight: bold;
-}
-
-.cont1 h3{
-  text-align: center;		
-}
-
-h3{
-	color: #fff;
-}
-
-.form-group{
-	width: 300px;
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-
-.form-heading input{
-	background-color: #31383e;
-	border-left: none;
-	color: white;
-
-}
-
-.form-heading span{
- color: white;
-}
-
-.form-heading input::-webkit-input-placeholder,  { /* Chrome/Opera/Safari */
-  color: white;
-}
-.form-heading input::-moz-placeholder { /* Firefox 19+ */
-  color: white;
-}
-.form-heading input:-ms-input-placeholder { /* IE 10+ */
-  color: white;
-}
-.form-heading input:-moz-placeholder { /* Firefox 18- */
-  color: white;
-}
-
-.input-group-addon{
-	background-color:  #31383e;
-}
-
-.cont-1 h2{
-	color: #fff;
-}
-.cont-1 p{
-	color: #fff;
-	text-align: justify;
-}
-.button-1{
-	background-color: #fbea2a;
-	color: #000;
-	border: none;
-	width: 170px;
-	margin-top: 40px;
-	margin-bottom: 50px;
-}
-
-.button-2{
-	background-color: #31383e;
-	border-color: #fff;
-	width: 110px;
-	margin-left: 20px;
-	margin-top: 40px;
-	margin-bottom: 50px;
-	
-}
-
-.icon{
-	margin-left: -20px;
-}
-
-.button-3{
-	background-color: #31383e;
-	color: #fff;
-	border: #fff;
-	margin-top: 40px;
-	margin-bottom: 50px;
-}
-
-.part-2{
-	background-color: #fff;
-}
-
-hr.first-line{
-	border: solid;
-	margin-top: -20px;
-	max-width: 1366px;
-}
-
-.bar1{
-	padding-top: 30px;
-}
 
 .space{
 	margin-bottom: 100px;
@@ -116,8 +9,6 @@ hr.first-line{
 	height: 300px;
 	padding-left: 20px;
 	text-align: justify;
-
-
 }
 
 .footer{
@@ -165,29 +56,16 @@ h4{
 	background: #ccc;
 }
 
-.view1{
-	margin-top: 50px;
-}
-.view2{
-	margin-top: 20px;
+.view-item{
+	padding-bottom: 20px;
+	color: solid;
 }
 
-.view3{
-	margin-top: 40px;
-}
-.view4{
-	margin-top: 40px;
-}
-.view5{
-	margin-top: 70px;
-}
-
-.view6{
-	margin-top: 60px;
-}
-
-.view7{
-	margin-top: 130px;
+hr {
+    /*display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
 }
 
 .tick{
