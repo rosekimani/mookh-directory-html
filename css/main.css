@@ -1,5 +1,18 @@
+.navbar-inverse {
+	background-color: #31383e;
+	border: none;
+}
+
+.login-button{
+	width: 80px;
+	background-color: #31383e;
+	border: none;
+}
 .sell-button {
 	width: 100px;
+	background-color: #fbea2a;
+	border: none;
+	color: #000;
 
 }
 
@@ -57,7 +70,8 @@ h4{
 }
 
 hr {
-    border: solid;
+    border: 2px solid;
+    color: black;
 }
 
 .column-header{
