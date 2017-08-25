@@ -1,19 +1,43 @@
 .navbar-inverse {
 	background-color: #31383e;
 	border: none;
+
 }
 
-.login-button{
-	width: 80px;
-	background-color: #31383e;
+.bar-text-color ul li a {
+	color: #ffffff;
+}
+.logo {
+	background-color: #FAEA29;
+	padding-left: 5px;
+	border-radius: 18px;
+	margin-top: 10px;	
+	margin-left: 120px;
+	width: 150px;
+	height: 45px;
+}
+
+.yellow{
+	background-color: #FAEA29;
+	margin-top: -20px;
+	height: 250px;
+}
+form {
+	margin-top: 100px;
+}
+.input-group-addon {
+	background-color: #ffffff;
+	border: none;
+}
+
+.form-control{
 	border: none;
 }
 .sell-button {
-	width: 100px;
-	background-color: #fbea2a;
+	width: 120px;
+	background-color: #FAEA29;
 	border: none;
 	color: #000;
-
 }
 
 .space {
@@ -28,11 +52,14 @@
 }
 
 .footer {
-	background-color: #ccc;
+	background-color: #F6F3EE;
 	height: 100px;
 	margin-top: 100px;
 }
 
+a.view-store {
+	text-decoration: none;
+}
 h4{
 	text-align: center;
 	color: #555a5e;
@@ -45,7 +72,7 @@ h4{
 }
 
 .small-image {
-	position: relative; margin-top: -100px; border: 5px solid grey; width: 150px; margin-right: 10px; border-radius: 10px;
+	position: relative; margin-top: -100px; border: 5px solid #f6f3ee; width: 150px; margin-right: 10px; border-radius: 10px;
 }
 
 .body-text {
@@ -76,9 +103,40 @@ hr {
 
 .column-header{
 	margin-left: 20px;
-	margin-bottom: 40px;
+	margin-top: 20px;
 	color: #535353;
+	text-align: center;
 }
+hr.header-line {
+	width: 100%;
+	border: 2px solid;
+    color: #F6F3EE; 
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+
+ul.text-decoration{
+	  list-style-type: none;
+}
+
+.text-decoration a {
+	text-decoration: none;
+	color: #b8b8b6;
+}
+
+a.active {
+	color: #31383e;
+}
+
+.active {
+	border-bottom: 2px solid;
+	border-bottom-color: #FAEA29;
+	padding-bottom: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
 
 
 
